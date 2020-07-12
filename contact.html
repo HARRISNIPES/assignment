@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>2 col layout</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="logo"><a href="index.html">Testemp Ltd</a></h1>
+            <div id="contact">
+                <p><a href="tel:+441903714140">Call: +44 (0) 1903 714140</a>
+                    <br><a href="tel:+441903717435">Fax: +44 (0) 1903 717435</a>
+                    <br><a href="mailto:sales@testemp.co.uk?subject=Web enquiry">Email: sales@testemp.co.uk</a></p>
+            </div>
+        </header>
+        <section class="flextainer">
+            <aside>
+                <ul class="menu">
+                    
+                        <li><a href="index.html" >Home
+                            <ul id="drpdn">
+                                <li><a href="sensors.html" id="trouble">Sensors</a></li>
+                                <li><a href="err404.html">Thermowells, Fittings and Transmitters</a></li>
+                                <li><a href="err404.html">Cable</a></li>
+                                <li><a href="err404.html">Instrumentation</a></li>
+                                <li><a href="err404.html">Connectors</a></li>
+                                <li><a href="err404.html">Info</a></li>
+                            </ul></a>
+                        </li>
+                    
+                    
+                        <li><a href="err404.html">About</a></li>
+                    
+                    
+                        <li><a href="err404.html">Associates</a></li>
+                    
+                    
+                        <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </aside>
+
+
+
+            <section class="mainsection contactform">
+                <h2>Contact Us</h2>
+                <p>If you'd like to contact us please fill out the form below or use our details found above. <br>Alternatively, you can share your experience or ask any question through our social media.</p>
+                <form method="post">
+                    <p>
+                        <label for="contactform"><br>Full Name:<input autofocus class="fullname" type="text" name="name"
+                                 /></label>
+                    </p>
+                    <p>
+                        <label for="contactform"> Email Address: <input class="emailaddress" type="email" name="email"
+                                /></label>
+                    </p>
+                    <p>
+                        <label for="contactform"> Your Query:<textarea class="query" id="query" name="query"
+                                placeholder="Ask your question here..."></textarea></label>
+                    </p>
+                    <p>
+                        <label for="contactform">
+                            <span>Query Type:</span>
+                            <input type="radio" name="queryType" value="purchase" />
+                            <span>Purchase</span>
+                            <input type="radio" name="queryType" value="techsupport" />
+                            <span>Technical Support</span>
+                            <input type="radio" name="queryType" value="generalquery" />
+                            <span>General Query</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label for="contactform">
+                            <span>By checking this box you agree to our <a href="t_and_cs.html"
+                                    target="_blank">T&Cs</a></span>
+                            <input type="checkbox" required name="tandc" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="submit" href="index.html" target="_self">
+                        </label>
+                    </p>
+                </form>
+            </section>
+        </section>
+
+        <footer>
+            <p>footer</p>
+        </footer>
+    </div>
+</body>
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap" rel="stylesheet">
+
+</html>
